@@ -3,19 +3,23 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.25.1
   '@types/node': ^18.0.0
+  '@types/nprogress': ^0.2.0
   '@vitejs/plugin-vue': ^2.3.3
   eslint: ^8.18.0
+  nprogress: ^0.2.0
   typescript: ^4.5.4
   vite: ^2.9.9
   vue: ^3.2.25
   vue-tsc: ^0.34.7
 
 dependencies:
+  nprogress: registry.npmmirror.com/nprogress/0.2.0
   vue: registry.npmmirror.com/vue/3.2.37
 
 devDependencies:
   '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config/0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
   '@types/node': registry.npmmirror.com/@types/node/18.0.0
+  '@types/nprogress': registry.npmmirror.com/@types/nprogress/0.2.0
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37
   eslint: registry.npmmirror.com/eslint/8.18.0
   typescript: registry.npmmirror.com/typescript/4.7.4
@@ -279,6 +283,12 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz}
     name: '@types/normalize-package-data'
     version: 2.4.1
+    dev: true
+
+  registry.npmmirror.com/@types/nprogress/0.2.0:
+    resolution: {integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/nprogress/-/nprogress-0.2.0.tgz}
+    name: '@types/nprogress'
+    version: 0.2.0
     dev: true
 
   registry.npmmirror.com/@types/unist/2.0.6:
@@ -2514,6 +2524,12 @@ packages:
       semver: registry.npmmirror.com/semver/5.7.1
       validate-npm-package-license: registry.npmmirror.com/validate-npm-package-license/3.0.4
     dev: true
+
+  registry.npmmirror.com/nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nprogress/-/nprogress-0.2.0.tgz}
+    name: nprogress
+    version: 0.2.0
+    dev: false
 
   registry.npmmirror.com/nth-check/2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nth-check/-/nth-check-2.1.1.tgz}
