@@ -7,7 +7,7 @@ import Markdown from 'vite-plugin-md'
 import Unocss from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno, presetWind } from 'unocss'
 import Prism from 'markdown-it-prism'
-import LinkAttributes from 'markdown-it-link-attributes'
+// import LinkAttributes from 'markdown-it-link-attributes'
 
 const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 
@@ -71,20 +71,20 @@ export default defineConfig({
     }),
 
     // https://github.com/antfu/vite-plugin-md
-    Markdown({
-      wrapperClasses: markdownWrapperClasses,
-      headEnabled: true,
-      markdownItSetup(md) {
-        // https://prismjs.com/
-        md.use(Prism)
-        md.use(LinkAttributes, {
-          matcher: (link: string) => /^https?:\/\//.test(link),
-          attrs: {
-            target: '_blank',
-            rel: 'noopener',
-          },
-        })
-      },
-    }),
+    // Markdown({
+    //   wrapperClasses: markdownWrapperClasses,
+    //   headEnabled: true,
+    //   markdownItSetup(md) {
+    //     // https://prismjs.com/
+    //     md.use(Prism)
+    //     md.use(LinkAttributes, {
+    //       matcher: (link: string) => /^https?:\/\//.test(link),
+    //       attrs: {
+    //         target: '_blank',
+    //         rel: 'noopener',
+    //       },
+    //     })
+    //   },
+    // }),
   ],
 })
