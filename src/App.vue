@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import DarkToggle from './components/DarkToggle.vue'
+import Docs from '~/pages/Docs.md'
+
 useHead({
   title: 'Parfait',
   meta: [
@@ -19,8 +22,9 @@ useHead({
 </script>
 
 <template>
-  <h1 text-60px>
-    hello
-  </h1>
+  <div flex justify-center items-center class="mt-1/12">
+    <DarkToggle />
+  </div>
+  <Docs />
 </template>
 
