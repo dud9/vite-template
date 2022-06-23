@@ -26,6 +26,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
     "@iconify/json": "^2.1.65",
+    "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/node": "^18.0.0",
     "@types/nprogress": "^0.2.0",
     "@unocss/preset-icons": "^0.39.3",

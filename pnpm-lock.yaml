@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.25.1
   '@iconify/json': ^2.1.65
+  '@types/markdown-it-link-attributes': ^3.0.1
   '@types/node': ^18.0.0
   '@types/nprogress': ^0.2.0
   '@unocss/preset-icons': ^0.39.3
@@ -53,6 +54,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config/0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
   '@iconify/json': registry.npmmirror.com/@iconify/json/2.1.65
+  '@types/markdown-it-link-attributes': registry.npmmirror.com/@types/markdown-it-link-attributes/3.0.1
   '@types/node': registry.npmmirror.com/@types/node/18.0.0
   '@types/nprogress': registry.npmmirror.com/@types/nprogress/0.2.0
   '@unocss/preset-icons': registry.npmmirror.com/@unocss/preset-icons/0.39.3
@@ -401,6 +403,14 @@ packages:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/linkify-it/-/linkify-it-3.0.2.tgz}
     name: '@types/linkify-it'
     version: 3.0.2
+    dev: true
+
+  registry.npmmirror.com/@types/markdown-it-link-attributes/3.0.1:
+    resolution: {integrity: sha512-K8RnNb1q8j7rDOJbMF7AnlhCC/45BjrQ8z3WZWOrvkBIl8u9RXvmBdG/hfpnmK1JhhEZcmFEKWt+ilW1Mly+2Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/markdown-it-link-attributes/-/markdown-it-link-attributes-3.0.1.tgz}
+    name: '@types/markdown-it-link-attributes'
+    version: 3.0.1
+    dependencies:
+      '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
     dev: true
 
   registry.npmmirror.com/@types/markdown-it/12.2.3:
