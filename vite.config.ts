@@ -53,18 +53,19 @@ export default defineConfig({
     // see unocss.config.ts for config
     Unocss({
       shortcuts: {
-        'border-base': 'border-gray/20 dark:border-gray/15',
-        'bg-base': 'bg-gray:15 dark:bg-[#17171A]',
-        'bg-card': 'bg-white dark:bg-[#2A2A2B]',
-        'bg-header': 'bg-white dark:bg-[#232324]',
-        'bg-sider': 'bg-white dark:bg-[#232324]',
         'icon-btn': 'op30 hover:op100]',
       },
       presets: [
         presetAttributify(),
         presetUno(),
+        // https://github.com/unocss/unocss/tree/main/packages/preset-icons?spm=a2c6h.24755359.0.0.1cde414dsXyn7X
+        // for more config
         presetIcons({
           scale: 1.2,
+          extraProperties: {
+            'display': 'inline-block',
+            'vertical-align': 'middle',
+          },
         }),
         presetWind(),
       ],
