@@ -16,8 +16,8 @@ The starter of Vite App.
 
 <br>
 <p align="center">
-<a href="https://github.com/dudiii">🤹‍♂️ Duende</a><br>
-<a href="https://github.com/dudiii/vite-template">🐱‍🐉 github</a>
+<a href="https://github.com/dud9">🤹‍♂️ Duende</a><br>
+<a href="https://github.com/dud9/vite-template">🐱‍🐉 github</a>
 </p>
 <br>
 
